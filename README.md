@@ -11,16 +11,12 @@ Fork and clone this repo.
 Create a new rails project called landlord with a postgresql database skipping test files and skip making a `.git` direcotry:
 
 ```shell
-rails new landlord --database=postgresql --skip-test -G
+rails new landlord --skip-test -G
 ```
 
 Change directories into the Rails app.
 
 Create the database:
-
-```shell
-rails db:create
-```
 
 ## Assignment
 
