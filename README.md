@@ -2,7 +2,7 @@
 
 ## Overview
 
-This asignment we will practicing Active Record methods. We do not need to put any code into our controllers, routes, or views. All of our code will go into our seed file. We can test with `rails console` and `psql`.
+For this lab, we will practicing Active Record methods. All of our code will go into our seed file. We can test with `rails console` and `psql`.
 
 ## Getting Started
 
