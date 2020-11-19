@@ -1,4 +1,4 @@
-# Active Record Landlord
+# Active Record Landlord Exercise
 
 ## Overview
 
@@ -11,7 +11,7 @@ Fork and clone this repo.
 Create a new rails project called landlord with a postgresql database skipping test files and skip making a `.git` direcotry:
 
 ```shell
-rails new landlord --skip-test -G
+rails new . -MT --skip-active-storage --api --database=postgresql
 ```
 
 Change directories into the Rails app.
@@ -42,7 +42,3 @@ In `db/seeds.rb` (experimenting in the rails console and then copying the workin
 - Save the object that you updated to the database
 - Update an object using the update method
 - Delete one of the objects you've created
-
-## Submitting
-
-Push your code and make a PR back to this repo.
