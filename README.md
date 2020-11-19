@@ -1,10 +1,10 @@
-# Active Record Landlord
+# Active Record Landlord Exercise
 
 ![](https://media1.giphy.com/media/l2Je2fjOTvEK0c1Uc/giphy.gif)
 
 ## Overview
 
-This assignment we will practicing Active Record methods. We do not need to put any code into our controllers, routes, or views. All of our code will go into our seed file. We can test with `rails console` and `psql`.
+For this lab, we will practicing Active Record methods. All of our code will go into our seed file. We can test with `rails console` and `psql`.
 
 ## Getting Started
 
@@ -13,16 +13,12 @@ Fork and clone this repo.
 Create a new rails project called landlord with a postgresql database and skip making a `.git` directory:
 
 ```shell
-rails new landlord --database=postgresql -G --api
+rails new . -MT --skip-active-storage --api --database=postgresql
 ```
 
 Change directories into the Rails app.
 
 Create the database:
-
-```shell
-rails db:create
-```
 
 ## Assignment
 
@@ -48,4 +44,3 @@ In `db/seeds.rb` (experimenting in the rails console and then copying the workin
 - Save the object that you updated to the database
 - Update an object using the update method
 - Delete one of the objects you've created
-
